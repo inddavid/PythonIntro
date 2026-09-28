@@ -1,0 +1,62 @@
+favorite_cars = [
+    'Mustang',
+    'Tesla',
+    'Whatever'
+]
+
+if favorite_cars == []:
+    print("This list is empty")
+else:
+    print("This list is not empty")
+    print(favorite_cars)
+
+
+
+n = 49
+if n < 50:
+    print("The number is less than 50")
+elif n == 50:
+    print("The number is equal to 50")
+else:
+    print("The number is greater than 50")
+
+
+
+#match
+code = 200
+match code:
+    case 404:
+        print("Not Found")
+    case 401:
+        print("Unauthorized")
+    case 403:
+        print("Forbidden")
+    case 200:
+        print("Success")
+
+
+#for
+student_scores = [150, 142, 185, 120, 171, 184, 149, 24, 59, 68, 199, 78, 65, 89, 86, 55, 91, 64, 89]
+
+max_score = 0
+for score in student_scores:
+    if score > max_score:
+        max_score = score
+
+print(max_score)
+
+
+
+
+#creating function
+def my_function():
+    print("Hello World")
+    print("God is good!")
+    print("Python testing")
+
+#calling function
+my_function()
+
+
+
+
