@@ -1,8 +1,0 @@
-
-
-if favorite_cars == []
-    print("This list is empty")
-else:
-    print("This list is not empty")
-
-
