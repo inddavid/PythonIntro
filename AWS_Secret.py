@@ -12,3 +12,6 @@ def get_secret(secret_name):
 # Usage
 creds = get_secret("prod/db-creds")
 print(creds['username'], creds['password'])
+
+
+
